@@ -1,0 +1,17 @@
+# Reference for threat actor for "LockBit Gang"
+
+**Title**: California city investigating data theft after ransomware group’s claims
+
+**Source**: https://therecord.media/california-city-el-cerrito-investigates-data-theft-lockbit
+
+## Content
+California city investigating data theft after ransomware group’s claimsLeadershipCybercrimeNation-stateElectionsTechnologyCyber Daily®Click Here PodcastGoSubscribe to The Record✉️ Free NewsletterImage: LPS.1 via Wikimedia Commons (CC0)Jonathan GreigAugust 10th, 2023California city investigating data theft after ransomware group’s claimsThe California city of El Cerrito is investigating the potential theft of data after a ransomware group added the city’s government to its list of victims on Wednesday.
+The LockBit gang added 15 victims to its leak site on Wednesday including El Cerrito, which is home to more than 25,000 residents and is about 10 minutes north of Oakland.
+In a statement to Recorded Future News, assistant to the City Manager Will Provost said the city’s systems are fully operational and they are not locked out of any devices or data.
+“We are aware that cybercriminals have alleged to have taken data from certain City of El Cerrito systems and is threatening to post the information to a website they maintain outside the confines of traditional internet,” Provost said.
+“We are working with third-party cybersecurity specialists and law enforcement on this issue and are actively monitoring the unauthorized actor’s claims to investigate their validity. If we determine any sensitive information was affected, we will notify those individuals in accordance with applicable laws.”
+The LockBit ransomware gang was involved in the April ransomware attack on Oakland that caused significant damage to the city’s operations for weeks. While the Play ransomware group initially claimed the attack, LockBit later added the city to its leak site as well.
+Troves of sensitive city data about the police department, elected officials and more were leaked by both groups. The state was forced to send in the National Guard to assist in the response.
+The attack on El Cerrito would be one of several on California cities this year. Alongside the attack on Oakland, the city of Modesto dealt with its own ransomware attack that was claimed by the Snatch ransomware group.
+The city of Hayward was forced to declare a state of emergency last month after a ransomware attack encrypted almost all of the city’s functions outside of essential services like police and healthcare.
+The San Bernardino County Sheriff's Department and San Francisco’s Bay Area Rapid Transit system both dealt with their own ransomware attacks in 2023. The state has also seen ransomware attacks on a major pro bono law firm and, in recent days, a California-based company that controls 16 hospitals across the country.News BriefsGovernment NewsCybercrime NewsGet more insights with the Recorded FutureIntelligence Cloud.Learn more.TagsRansomwareLockBitCaliforniaNo previous articleNo new articlesJonathan GreigJonathan Greig is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.BriefsPrivacyAboutContact Us© Copyright 2024 | The Record from Recorded Future News

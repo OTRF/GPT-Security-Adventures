@@ -1,0 +1,24 @@
+# Reference for threat actor for "LockBit Gang"
+
+**Title**: Upstate New York nonprofit hospitals still facing issues after LockBit ransomware attack
+
+**Source**: https://therecord.media/upstate-new-york-hospitals-ransomware-attack
+
+## Content
+Upstate New York nonprofit hospitals still facing issues after LockBit ransomware attackLeadershipCybercrimeNation-stateElectionsTechnologyCyber Daily®Click Here PodcastGoSubscribe to The Record✉️ Free NewsletterImage: Carthage Area Hospital / FacebookJonathan GreigSeptember 14th, 2023Upstate New York nonprofit hospitals still facing issues after LockBit ransomware attackTwo major hospitals serving thousands in upstate New York are struggling to recover from cyberattacks that were announced last week.
+The two facilities, Carthage Area Hospital and Claxton-Hepburn Medical Center, serve an area with more than 200,000 people in Jefferson, Lewis and St. Lawrence Counties.
+For two weeks, the hospitals have been dealing with a cybersecurity incident that forced them to divert ambulances to other local hospitals and reschedule most appointments.
+Local news outlets reported that the FBI, the New York State Department of Health and the Division of Homeland Security and Emergency Services are involved in the hospitals’ recovery effort. Phone systems were restored on September 2 but several other services are still unavailable.
+Carthage Area Hospital is a 25-bed facility serving both civilian and military personnel while Claxton-Hepburn Medical Center is a 127-bed community hospital and regional referral center with several specialized arms for children and mental health.
+The hospitals have not responded to requests for comment about the situation but published a statement September 6 on their Facebook pages confirming that they would continue canceling all appointments except those related to dialysis, cancer treatment and wound care.
+“All patients with appointments that need to be rescheduled will be contacted. Any patient with urgent health concerns should still call their healthcare provider. Patients with emergency conditions should go to their nearest emergency department,” they said.
+“We continue to take every step necessary to protect privacy and security and maintain as many of our services as possible. We appreciate your patience and understanding.”
+On Wednesday, Claxton-Hepburn Medical Center said it would continue canceling outpatient appointments through this week at health centers and physician offices.
+“Please note that we are still experiencing intermittent connectivity issues at times. If you have a medical emergency, please call 911 or proceed to the nearest emergency room,” they said.
+On Thursday, the LockBit ransomware gang added the hospitals to its leak site, threatening to publish data stolen from the nonprofits if a ransom is not paid by September 19.
+Despite the gang’s tenuous rules banning affiliates and members from attacking hospitals, LockBit actors have repeatedly gone after healthcare institutions across the world.
+The gang caused outrage when it attacked Toronto’s Hospital for Sick Children days before Christmas. Three weeks before that attack, the group was accused of attacking the Hospital Centre of Versailles in France.
+In August 2022, LockBit proudly took credit for a crippling attack on Center Hospital Sud Francilien in Corbeil-Essonnes. The attack knocked out the hospital’s “business software, storage systems (in particular medical imaging) and the information system relating to patient admissions.”
+One month ago, the gang also announced an attack on a subsidiary of healthcare technology giant Siemens Healthineers, which focuses on radiation oncology treatments.
+Ransomware attacks on healthcare facilities have become a major concern for cybersecurity officials in the U.S.
+Several officials at the Cybersecurity and Infrastructure Security Agency said during the Black Hat and DefCon security conferences that attacks causing ambulance diversions were particularly alarming considering how vital any extra second or minute can be to surviving certain health scares like strokes and heart attacks.Cybercrime NewsNewsGet more insights with the Recorded FutureIntelligence Cloud.Learn more.TagshospitalHealthcareLockBitNew YorkNo previous articleNo new articlesJonathan GreigJonathan Greig is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.BriefsPrivacyAboutContact Us© Copyright 2024 | The Record from Recorded Future News

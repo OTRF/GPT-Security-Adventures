@@ -1,0 +1,28 @@
+# Reference for threat actor for "FIN11"
+
+**Title**: Tasmania officials: 16,000 student documents leaked by Clop ransomware group
+
+**Source**: https://therecord.media/tasmania-government-ransomware-clop-student-documents
+
+## Content
+Tasmania officials: 16,000 student documents leaked by Clop ransomware groupLeadershipCybercrimeNation-stateElectionsTechnologyCyber Daily®Click Here PodcastGoSubscribe to The Record✉️ Free NewsletterMadeleine Ogilvie speaks to Tasmania's House of Assembly on March 30, 2023. Image: House of Assembly / screenshotJonathan GreigApril 7th, 2023Tasmania officials: 16,000 student documents leaked by Clop ransomware groupGovernment officials in Tasmania confirmed on Friday that more than 16,000 sensitive documents were leaked by the Clop ransomware group following a data theft incident two weeks ago.
+During a press conference on Friday, Minister for Science and Technology Madeleine Ogilvie told reporters that the information released includes financial invoices, statements and information relating to student assistance applications.
+“This may include names and addresses and this is an evolving situation. This data has been accessed through a third party file transfer service, and as I have said previously there is no evidence that Tasmanian government IT systems have been breached,” she said.
+“We are managing it as a serious incident response, and our response will continue to be proportionate to the risk. Emergency management arrangements have been activated. We fully understand how concerning this is for all Tasmanians.”
+Several cybersecurity researchers confirmed that the Clop ransomware group released the documents on its leak site. Ogilvie said that like most of Clop’s victims in this campaign, they were a user of Fortra’s GoAnywhere managed file transfer product.
+On Wednesday, Ogilvie acknowledged that the investigation into the attack indicated that “financial data from the Department for Education, Children and Young People may have been accessed in the global incident.”
+Names, addresses, invoices and bank account numbers were involved in the breach. A spokesperson previously told Recorded Future News that the government was investigating the breach after being added to Clop’s list of victims on March 27.
+Dozens of governments, businesses and schools — from the City of Toronto and the Virgin company to Hitachi — have come forward to say data was stolen through the bug affecting GoAnywhere. Clop is the only confirmed hacking group that exploited the vulnerability, which is being tracked as CVE-2023-0669.
+In February, Clop claimed it had attacked more than 130 organizations and it has slowly been adding names to its list of victims since then.
+The politics of ransomware
+The theft from the island state off the coast of Australia has become a local political scandal, with the opposition party assailing the government’s handling of the incident.
+Several opposition officials said Ogilvie had refused to meet with them to explain the seriousness of the situation and had routinely downplayed the sensitivity of the information that was in the hands of hackers.
+“It is no surprise that we have the worst cyber security in the country given the cuts to funding made by the Liberal Government, starting in 2014. Tasmanians deserve to know exactly what is going on, and Tasmanians deserve a Government that ensures their sensitive data is protected,” said Jen Butler, shadow minister for ICT, Science and Technology.
+“Instead, Madeleine Ogilvie failed to secure Tasmanians’ personal data and then spent a fortnight concealing the truth about just how serious this data breach was. Her conduct has been unforgivable.”
+Butler added that “potentially each primary school in Tasmania, every entity, every individual who's had anything to do with the Department of Education may be compromised, and that could put some people in a very dangerous situation.”
+Ogilvie shot back at the opposition, claiming they were “fearmongering” and peddling misinformation about her response to the scandal — disputing claims that she had downplayed the cyberattack.
+“At no point have I said there was no risk and no threat to Tasmanian’s data. … [T]he opposition spokeswoman, Jen Butler, said the government shouldn’t negotiate with terrorists — what an inflammatory and irresponsible comment,” Ogilvie said.
+“Ms Butler was also unable to provide any source for her specific claims. … She may think she is scoring a political point, but she is blatantly and willfully ignoring the fact she is causing harm and risks causing further harm.”
+Ogilvie went on to admit that the 16,000 documents are only part of what was stolen and more are likely to be released. Clop spent four days in the government’s network until a patch was applied and the hackers were removed from the system, she said during Friday’s news conference.
+The government has set up a hotline for concerned parents to get more information.
+Fortra, the company behind GoAnywhere, has faced backlash for its response to the fiasco. Several customers told TechCrunch last month that the company told them their data was safe when it was not.Government NewsNewsCybercrime NewsGet more insights with the Recorded FutureIntelligence Cloud.Learn more.TagsRansomwareAustraliaClopGoAnywhereNo previous articleNo new articlesJonathan GreigJonathan Greig is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.BriefsPrivacyAboutContact Us© Copyright 2024 | The Record from Recorded Future News

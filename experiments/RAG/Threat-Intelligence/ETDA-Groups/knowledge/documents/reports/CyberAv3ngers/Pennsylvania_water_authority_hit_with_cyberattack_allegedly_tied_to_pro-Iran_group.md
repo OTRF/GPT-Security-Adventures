@@ -1,0 +1,22 @@
+# Reference for threat actor for "CyberAv3ngers"
+
+**Title**: Pennsylvania water authority hit with cyberattack allegedly tied to pro-Iran group
+
+**Source**: https://therecord.media/water-authority-pennsylvania-cyberattack-pro-iran-group
+
+## Content
+Pennsylvania water authority hit with cyberattack allegedly tied to pro-Iran groupLeadershipCybercrimeNation-stateElectionsTechnologyCyber Daily®Click Here PodcastGoSubscribe to The Record✉️ Free NewsletterImage: Patrick Pahlke via UnsplashJonathan GreigNovember 27th, 2023Pennsylvania water authority hit with cyberattack allegedly tied to pro-Iran groupA water authority in Pennsylvania reportedly suffered a cyberattack, prompting officials to reassure people in the area that drinking water has not been affected by the incident.
+The Municipal Water Authority of Aliquippa — which serves thousands of customers in communities northwest of Pittsburgh — did not respond to requests for comment but told local news outlet KDKA-TV that computer screens at a facility were plastered with a message from hacking group Cyber Av3ngers.
+The outpost, which contains a collection of pumps that maintain water pressure and regulate water flow, sent an emergency notice to the main headquarters after it was attacked.
+Local news outlet Beaver Countian reported that workers took the equipment offline and are using backup tools to maintain water pressure.
+Matthew Mottes, the chairman of the board for the Aliquippa water authority, said alarms went off on Saturday at a station located on the outskirts of town and that local police were called to investigate the incident.
+"They did not get access to anything in our actual water treatment plant — or other parts of our system — other than a pump that regulates pressure to elevated areas of our system,” he told the Beaver Countian. “This pump was on its own computer network, separated from our primary network, and is physically miles away."
+Mottes noted that the hacked system uses software or components from Unitronics, an Israeli-owned technology company. He reiterated that the attack had no effect on drinking water or the water supply.
+The Cyber Av3ngers group has filled its social media feed with references to the leaders of Iran and has pledged to attack any entities with products or ties to Israel — already touting attacks on 10 water treatment plants in Israel.
+Congressman Chris Deluzio (D-PA) said he is “closely monitoring” the attack.
+“My office is in touch with leadership, which reports that there has been no loss of water service for folks. Federal officials are assisting the investigation, and I remain ready to help with federal agencies. Attacks on our critical infrastructure like water are unacceptable,” he said in a statement.
+“I intend to push for a full investigation here and accountability for the attackers, and I will continue the important bipartisan work on the House Armed Services Cyber, Information Technologies, and Innovation (CITI) Subcommittee to shore up America's defenses.”
+The attack comes one month after Republican lawmakers and water industry companies forced the U.S. Environmental Protection Agency (EPA) to back off efforts to add cybersecurity to annual state-led Sanitary Survey Programs that evaluate water systems across the U.S.
+Lawsuits against the rules were backed by two powerful industry groups — the AWWA and the NRWA — which argued that the EPA should allow utilities to create their own requirements.
+Despite their work in scuttling EPA efforts to better protect water systems, the groups acknowledged that cyberattacks against water utilities are increasing at an alarming rate.
+U.S. law enforcement agencies said ransomware gangs hit five U.S. water and wastewater treatment facilities from 2019 to 2021 — and those figures did not include three other widely reported cyberattacks on water utilities.News BriefsCybercrime NewsGet more insights with the Recorded FutureIntelligence Cloud.Learn more.Tagswater utilityWaterCritical InfrastructureIranPennsylvanialocal governmentcyberattackNo previous articleNo new articlesJonathan GreigJonathan Greig is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.BriefsPrivacyAboutContact Us© Copyright 2024 | The Record from Recorded Future News

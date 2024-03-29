@@ -1,0 +1,21 @@
+# Reference for threat actor for "CyberAv3ngers"
+
+**Title**: Two-day water outage in remote Irish region caused by pro-Iran hackers
+
+**Source**: https://therecord.media/water-outage-in-ireland-county-mayo
+
+## Content
+Two-day water outage in remote Irish region caused by pro-Iran hackersLeadershipCybercrimeNation-stateElectionsTechnologyCyber Daily®Click Here PodcastGoSubscribe to The Record✉️ Free NewsletterImage: Lenny Thieuleux via UnsplashAlexander MartinDecember 11th, 2023Two-day water outage in remote Irish region caused by pro-Iran hackersResidents of a remote area on Ireland’s west coast were left without water last week due to a cyberattack perpetrated by a pro-Iran hacking group targeting a piece of equipment the hackers complained was made in Israel.
+The incident affected a private group water scheme in the rural Erris area of County Mayo, which has a total population of around 8,000 people spread out over just under 1,000 square kilometers — about 0.5% the population of Manhattan in an area 20 times its size.
+“The attack saw outages for approximately 160 households over two days, and was as a result of the exploitation of a vulnerability in a particular type of programmable logic controller,” a spokesperson for Ireland’s Department of the Environment, Climate and Communications (DECC) told Recorded Future News on Monday.
+The spokesperson added: “This exploitation was carried out on a global basis, and there is no suggestion that services in Ireland were specifically targeted. The NCSC [National Cyber Security Centre] and An Garda Síochána are engaging with the affected entity.”
+The incident appears to be the latest perpetrated by the Cyber Av3ngers group, who local media reported had left a message on the affected computer network saying it had been conducted because the water system used the Israel-made Unitronics tool.
+The Irish government said that the country’s NCSC has now “identified all of the equipment in Ireland vulnerable to this attack, and notified the owners.”
+Last month, the U.S. federal government warned that it was responding to the active exploitation of Unitronics programmable logic controllers (PLCs) that are used by many organizations in the water sector.
+The same PLCs are likely in use in other industries, including energy, food and beverage manufacturing, and healthcare. The devices are often exposed to the internet due to the remote nature of their control and monitoring functionalities, authorities and cybersecurity researchers have said.
+Among those affected in the U.S. was the Municipal Water Authority of Aliquippa — which serves thousands of customers in communities northwest of Pittsburgh — although in that instance there was no loss of water service.
+The attacks followed just a month after Republican lawmakers and water industry companies forced the U.S. Environmental Protection Agency (EPA) to back off efforts to add cybersecurity to annual state-led Sanitary Survey Programs that evaluate water systems across the U.S.
+Lawsuits against the rules were backed by two powerful industry groups — the American Water Works Association and the National Rural Water Association— which argued that the EPA should allow utilities to create their own requirements.
+On Monday, the U.S. Cybersecurity and Infrastructure Security Agency added the Unitronics bug to its Known Exploited Vulnerabilities catalog, assigning it CVE-2023-6448.
+The advisory warned that “Unitronics Vision Series PLCs and HMIs [Human Machine Interfaces] use default administrative passwords.”
+“An unauthenticated attacker with network access to a PLC or HMI can take administrative control of the system,” the agency said.NewsGovernment NewsCybercrime NewsGet more insights with the Recorded FutureIntelligence Cloud.Learn more.TagsIranIrelandwater utilityCISACVE-2023-6448UnitronicsNo previous articleNo new articlesAlexander MartinAlexander Martin is the UK Editor for Recorded Future News. He was previously a technology reporter for Sky News and is also a fellow at the European Cyber Conflict Research Initiative.PrivacyAboutContact Us© Copyright 2024 | The Record from Recorded Future News

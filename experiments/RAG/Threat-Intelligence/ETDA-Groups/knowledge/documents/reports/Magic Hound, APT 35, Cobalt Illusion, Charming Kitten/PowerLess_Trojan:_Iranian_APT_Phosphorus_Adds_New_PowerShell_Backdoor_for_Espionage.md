@@ -1,0 +1,818 @@
+# Reference for threat actor for "Magic Hound, APT 35, Cobalt Illusion, Charming Kitten"
+
+**Title**: PowerLess Trojan: Iranian APT Phosphorus Adds New PowerShell Backdoor for Espionage
+
+**Source**: https://www.cybereason.com/blog/powerless-trojan-iranian-apt-phosphorus-adds-new-powershell-backdoor-for-espionage
+
+## Content
+
+
+
+
+
+
+PowerLess Trojan: Iranian APT Phosphorus Adds New PowerShell Backdoor for Espionage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Back to Cybereason.com
+
+
+
+
+
+
+
+
+
+All Posts
+Research
+Podcasts
+Webinars
+Resources
+Videos
+News
+
+
+Subscribe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+
+
+All
+Research
+Podcasts
+Webinars
+Resources
+Videos
+News
+
+
+
+
+
+
+
+Search
+
+
+Subscribe
+
+
+
+
+
+
+ 
+            X
+        
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PowerLess Trojan: Iranian APT Phosphorus Adds New PowerShell Backdoor for Espionage
+
+
+Written By
+Cybereason Nocturnus
+
+
+
+
+
+
+
+Over the past months, the Cybereason Nocturnus Team observed an uptick in the activity of the Iranian attributed group dubbed Phosphorus (AKA Charming Kitten, APT35), known for previously attacking medical research organizations in the US and Israel in late 2020, and for targeting academic researchers from the US, France, and the Middle East region back in 2019.
+
+They have also previously targeted human rights activists, the media sector, and interfered with the US presidential elections.
+Towards the end of 2021, multiple attacks were carried out exploiting the notorious Microsoft Exchange Server vulnerabilities chained together and referred to as ProxyShell, which ultimately enabled multiple threat actors to deploy malware on their targets’ networks. There have been several reports detailing the exploitation of these vulnerabilities by Iranian state sponsored threat actors, among them the Phosphorus APT group carrying out ransomware attacks. 
+Cybereason researchers recently discovered a new set of tools which were developed by the Phosphorus group and incorporated into their arsenal, including a novel PowerShell backdoor dubbed PowerLess Backdoor. Our research also highlights a stealthy technique used by the group to avoid PowerShell detection by running the PowerShell Backdoor in a .NET context rather than spawning the PowerShell process.
+In addition, several interesting connections were found between the Phosphorus group and the Memento Ransomware that first emerged in late 2021. (Related Iranian APT research: StrifeWater RAT: Iranian APT Moses Staff Adds New Trojan to Ransomware Operations).
+Key Findings
+
+Novel PowerShell Backdoor: A novel and previously undocumented PowerShell backdoor related to the Phosphorus group was discovered by the Cybereason Nocturnus Team and dubbed PowerLess Backdoor. It supports downloading additional payloads, such as a keylogger and an info stealer.
+
+
+Evasive PowerShell Execution: The PowerShell code runs in the context of a .NET application, thus not launching “powershell.exe” which enables it to evade security products.
+
+
+Modular Malware: The toolset analyzed includes extremely modular, multi-staged malware that decrypts and deploys additional payloads in several stages for the sake of both stealth and efficacy.
+
+
+Highly Active Infrastructure: At the time of writing this report, some of the IOCs remained active delivering new payloads.
+
+
+Wide Range of Open Source Tools: A lot of the activity observed involved a variety of publicly available tools, such as cryptography libraries, weaponizing them for payloads and communication encryption.
+
+
+Shared IOCs with Memento Ransomware: One of the IP addresses serves a domain which is being used as command and control (C2) for the recently discovered Memento Ransomware. 
+
+
+Phosphorus Threat Group: The Phosphorus Threat Group was previously spotted attacking research facilities in multiple regions such as the US, Europe and the Middle East. The group is known to be behind multiple cyber espionage and offensive cyber attacks, operating in the interest of the Iranian regime, leveraging cyberwarfare in accordance with Iran’s geopolitical interests. 
+Use of Publicly Available Exploits: The Phosphorus Group was first seen exploiting the ProxyShell vulnerability, and later on the Log4j vulnerability as well, utilizing fresh exploits in the wild.
+
+A Glimpse into Phosphorus Updated Arsenal
+Following up on both public and non-public intelligence that is available to Cybereason in regard to the Phosphorus threat actor, the Cybereason Nocturnus Team was able to identify a new toolset that includes a novel backdoor, malware loaders, a browser info stealer, and a keylogger.
+It is worth noting that some of the more recent methods that were observed in attacks attributed to the Phosphorus group included open-source tools such as the famous DiskCryptor library and also BitLocker, along with the Fast Reverse Proxy which is used for RDP proxying.
+The following sections will detail the discovery process and analysis of the newly identified tools. 
+Pivoting from a Previously Known Arsenal
+The journey to the discovery of the new toolset started with threat intelligence efforts that included pivoting on an IP address (162.55.136[.]20) that was already attributed to Iranian threat actors by multiple sources, including US CERT. 
+While examining different files that were downloaded from this IP address, we stumbled upon a file named “WindowsProcesses.exe”: 
+WindowsProcesses.exe hosted on the abovementioned IP
+The file seems to have only been detected by 35/68 antivirus vendors, according to VirusTotal:
+WindowsProcesses.exe details as seen in VirusTotal
+Analysis of WindowsProcesses.exe
+This file, entitled “WindowsProcesses.exe” is a 64-bit executable loader whose sole purpose is to resolve relevant DLLs and load another file from the “%windir%\Temp” path entitled “dll.dll”:
+WindowsProcesses and related modules execution diagram
+Once the relevant DLLs (mostly related to .NET runtime libraries) and API calls are resolved, dll.dll is executed:
+The main code of WindowsProcesses.exe
+By the looks of it, the authors could have been inspired by a code snippet found publicly available on GitHub, which facilitates running PowerShell with CLR in native runtime. The snippet is named “Powerless”, and the authors seem to have kept that naming convention, as shown in the PDB path of the binary: 
+C:\\Users\\pugna\\Desktop\\126\\V1\\PowerLessCLR\\x64\\Release\\PowerLessCLR.pdb
+Analysis of dll.dll
+Dll.dll is a simple .NET AES decryptor that uses a hardcoded key “()*&3dCfabE2/123” to decode another file named “upc” to ultimately execute PowerShell code from the decrypted object:
+
+The code of dll.dll
+upc
+The upc encrypted BLOB is decrypted using dll.dll, and contains multiple encryption layers that all are decrypted in stages using base64 and AES ECB decryption.
+The keys that are being used for decryption are as follows:
+
+()*&3dCfabE2/123
+0123654789mkiujn
+25sL(*14@#SDFcgd
+
+Prior to decrypting the PowerShell backdoor, an intermediate stage takes place when the victim’s machine is assigned a unique identifier which is sent to the C2, which downloads an additional configuration:
+The intermediate stage during the PowerLess backdoor decryption
+Analysis of the PowerLess Backdoor
+After all the AES encrypted layers are decrypted, the PowerLess backdoor is executed:
+PowerLess backdoor command parsing code segment
+The PowerLess backdoor is equipped with the following capabilities:
+
+Downloading and executing additional malware and files
+
+Additional modules:
+
+Browsers info stealer
+Keylogger module
+
+
+Encrypted channel with the C2
+Executing arbitrary commands
+Killing processes
+Stealing browser data
+Keylogging
+
+It is worth mentioning that the backdoor is being run within a .NET context, so therefore it does not spawn “powershell.exe”. This behavior can be interpreted as an attempt to evade certain PowerShell detections, although PowerShell logs are being saved on the machine:
+
+Windows Processes and the malicious loaded module “dll.dll” as seen in the Cybereason XDR Platform
+Oddly enough, there is a part of the code in the PowerLess Backdoor, that do spawn a powershell.exe process, when the request to kill a process is received from the C2:
+A part of the PowerLess Backdoor that spawns powershell.exe
+It can be assumed that the native language of the backdoor’s authors is likely not English given the abundance of typos and grammatical mistakes found in the code: 
+PowerLess backdoor logging
+Keylogger
+One of the modules downloaded by the PowerLess backdoor is a keylogger that is written in .NET. It’s core functionality is quite simple, consisting of hooks and the logging of the user’s keystrokes:
+Partial code from the keylogger module
+The logs are being stored in the following path: "C:\\Windows\\Temp\\Report.06E17A5A-7325-4325-8E5D-E172EBA7FC5BK":
+Logs path of the keylogger module
+Stealer
+Another module is a browser info stealer, which is also written in .NET, and includes the BouncyCastle crypto library. It also uses an SQLite data reader object for Chrome and Edge browser database files. In the staging phase, the data is encrypted and written in JSON format for exfiltration:
+Partial code from the info stealer module
+The logs are being stored in the following path: “C:\\Windows\\Temp\\cup.tmp”:
+Logs path of the stealer module
+Additional Tools Potentially Related to Phosphorus
+In addition to the newly discovered PowerLess Backdoor, other tools were identified by the Nocturnus Team which are suspected to originate from the same developer. However, at this point in time there isn't enough evidence to conclusively tie these tools to Phosphorus with a high level of confidence. 
+Looking at the PE info of “WindowsProcesses.exe”, the below PDB path is present: “C:\Users\pugna\Desktop\126\V1\PowerLessCLR\x64\Release\PowerLessCLR.pdb”:
+The PDB path from WindowsProcesses.exe
+Searching for the prefix “C:\Users\pugna” returns other unidentified tools:
+Artifacts found in VirusTotal with the search “C:\Users\pugna”
+Chromium F
+“Chromium F.exe” is yet another .NET browser info stealer. Although the code is different, by the functionality it is similar to the abovementioned info stealer module, leading us to assess that it might be an earlier variant:
+Code segment from Chromium F.exe
+Sou.exe - Audio Recorder
+“Sou.exe” is another .NET file, but this time it’s an audio recorder which uses the NAudio open source library:
+Code segment from Sou.exe
+A New Locker in the Making? 
+One of the more recent tools that was allegedly from the same developer is what appears to be an unfinished Ransomware variant. It is also written in .NET and at this point doesn’t do anything except locking the target’s screen. As can be seen, the fields like the ransom amount and attacker’s email are yet to be set. Although unfinished, it is worth mentioning that the sample was uploaded from Iran via web, and it might imply yet another step in the direction of this threat actor towards ransomware:
+Unfinished ransomware sample uploaded to VirusTotal from Iran
+The unfinished ransomware locker screen
+Analysis of FRP Loaders
+Java Multi Platform Loader
+One of the more active IPs that was reported in the ProxyShell attacks was 148.251.71[.]182. In addition, another recent report mentions this IP address as part of an active exploitation of the Log4j vulnerability:
+Files found on the IP address 148.251.71[.]182
+The “symantec” and “update” themed files all serve the FRP again. The “RCE” links, on the other hand, serve a Java loader that distinguishes the victim machine’s operating system and drops the appropriate version of FRP:
+The Java RCE class
+There are two slightly different variations of the loader, but eventually they check for the file separator of the OS, which is “/” in case it’s Linux or “\” in Windows, and then downloads the payload and creates persistence:
+Content of the malicious Java class
+Powershell to Exe Downloader
+Another loader which eventually delivers FRP is PowerShell code converted to an executable by the “Ps1 To Exe” freeware that is available for download on public forums, where less technical people can successfully use it:
+Information about one of the FRP loaders 
+Finally, the loader creates a scheduled task for FRP, of course while being dependent on the OS type.
+A full process tree of a real time attack that exploits the ProxyShell vulnerability and deployment of the FRP modules, can be seen below: 
+A real time FRP staging and execution as seen in the Cybereason XDR Platform
+Once the attackers exploited the vulnerable Microsoft Exchange Server, they downloaded the FRP module, ran multiple reconnaissance commands, created persistence, dumped credentials using a known LOLBIN technique (Comsvcs.dll), and attempted to move laterally, as can be seen in the above Cybereason XDR Platform image. 
+The Memento Ransomware Connection
+Another IP that appears in US CERT’s list is 91.214.124[.]143. Searching it in VirusTotal reveals other malicious files communicating with it, as well as unique URL directory patterns that reveal a potential connection to Memento Ransomware:
+
+The string “gsdhdDdfgA5sS” appears to be generated by the same script as the one listed in the Memento Ransomware IOCs: “gadfTs55sghsSSS”.
+The domain “google.onedriver-srv[.]ml” was previously resolved to the IP address 91.214.124[.]143 mentioned in the US CERT alert about Iran state sponsored actors activity:
+
+Some of the Memento IOCs that are suspected to be related to Phosphorus
+
+The “Connector3.exe” naming convention: as mentioned above, Phosphorus has been observed using the FRP tool in many occasions. The file name that is used for FRP and reported by the US CERT is “Connector3.exe”. As can be seen below, the same name is being used to name a backdoor by Memento:
+
+FRP named “Connector3.exe” from US CERT report
+
+The activity of Phosphorus with regard to ProxyShell took place in about the same time frame as Memento. Iranian threat actors were also reported to be turning to ransomware during that period, which strengthens the hypothesis that Memento is operated by an Iranian threat actor.
+
+Conclusion
+In this report, the Cybereason Nocturnus Team detailed a previously undocumented PowerShell backdoor dubbed PowerLess, used by the Iranian APT Phosphorus in recent attacks. This research also provided further details regarding the group’s tools and techniques, including the use of publicly available tools and a combination of coding languages. 
+The extensive usage of open source tools that is assessed to demonstrate the intermediate coding skills of the attackers. The use of various programming languages also might point to a lack of specialization in any specific coding language. This research also highlights how important it is for threat intelligence analysts to “follow the breadcrumbs,” such as pivoting on known infrastructure or the PDB paths left by the attackers in this case, in order to pave the way for discovering additional tools and connections to other operations. 
+Finally, a connection between Phosphorus and the Memento ransomware was also found through mutual TTP patterns and attack infrastructure, strengthening the connection between this previously unattributed ransomware and the Phosphorus group.
+The Cybereason XDR Platform detects and blocks the PowerLess Trojan and other advanced TTPs used in this operation. Cybereason is dedicated to teaming with defenders to end attacks on the endpoint, across enterprise, to everywhere the battle is taking place.
+MITRE ATT&CK BREAKDOWN
+
+
+
+
+Reconnaissance
+
+
+Execution
+
+
+Persistence
+
+
+Defense Evasion
+
+
+
+
+Gather Victim Host Information
+
+
+Command and Scripting Interpreter: PowerShell
+
+
+Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder
+
+
+Masquerading
+
+
+
+
+Gather Victim Identity Information
+
+
+Exploitation for Client Execution
+
+
+Scheduled Task/Job: At (Windows)
+
+
+Impair Defenses: Disable or Modify System Firewall
+
+
+
+ 
+
+Scheduled Task/Job: At (Windows)
+
+
+Scheduled Task/Job: At (Linux)
+
+
+Modify Registry
+
+
+
+ 
+
+Scheduled Task/Job: At (Linux)
+
+
+Server Software Component: Web Shell
+
+ 
+
+
+
+ 
+
+
+
+
+Discovery
+
+
+Collection
+
+
+Command and Control
+
+
+Credential Access
+
+
+
+
+Account Discovery: Local Account
+
+
+Archive Collected Data
+
+
+Application Layer Protocol: Web Protocols
+
+
+OS Credential Dumping
+
+
+
+ 
+
+Audio Capture
+
+
+Data Encoding: Standard Encoding
+
+ 
+
+
+ 
+
+Input Capture: Keylogging
+
+
+Encrypted Channel: Symmetric Cryptography
+
+ 
+
+
+ 
+ 
+
+Proxy
+
+ 
+
+
+
+ 
+About the Researcher:
+DANIEL FRANK
+Daniel Frank is a senior Malware Researcher at Cybereason. Prior to Cybereason, Frank was a Malware Researcher in F5 Networks and RSA Security. His core roles as a Malware Researcher include researching emerging threats, reverse-engineering malware and developing security-driven code. Frank has a BSc degree in information systems.
+
+
+
+
+
+
+X
+
+
+
+Indicators of Compromise | PowerLess
+IPs
+91.214.124[.]143 
+162.55.137[.]20
+162.55.136[.]233
+148.251.71[.]182
+Files
+WindowsProcesses.exe
+679703e9859c20ab39d6be992aa7d979710d9ace
+dll.dll
+3fcec932530557ea3d1f38f06f477db4b0be5acb
+upc
+97c0e103700b9f2464000cb63e10b68a4305dd33
+Keylogger module
+4810c782a8fe964512f08db91e8107e9af29edab
+Stealer module
+3bfec62c094366844c3e4c0e257e01678f55ef5b
+Sou.exe
+0492b9ad7ae35ee1e0b6f53a6b7c2c75e9b5d427
+Chromium F.exe
+dd94382acb55e694ee38e1be7f5c0902be0e0d89
+Rsf.exe
+416291332a70407df5ff5d79072f5ad68cd802b9
+Java loaders
+026db4159e7e36e00fdcef1e29f73b40030a3572
+dcf01d7641ec3fec213ab8335625a3554b943ac8
+92ae97557e18ca810999fc05c18e3c6c75476444
+eeebce1a4c3e05e21689acef000a5fcf0f17abc3
+task_update.exe
+32224892b670467e23874d7e8abd2ef92987a7e6
+3a6431169073d61748829c31a9da29123dd61da8
+PDBs
+"C:\Users\pugna\Desktop\126\V1\PowerLessCLR\x64\Release\PowerLessCLR.pdb"
+“C:\Users\pugna\Desktop\126\V1\slns\dll\dll\obj\Release\dll.pdb”
+“C:\Users\pugna\Desktop\Sou\Sou\bin\x64\Release\s.pdb”
+“C:\Users\pugna\Documents\Gatherer\Chromiom F\obj\Release\Chromiom F.pdb”
+“C:\Users\pugna\Desktop\RS\rsf\rsf\obj\Debug\rsf.pdb”
+“C:\Users\Injec\Desktop\myklg-without-mouse-with timee\myklg\obj\Release\myklg.pdb”
+“C:\Users\Injec\Desktop\pro4-finaly\pro4\bin\Release\ILMerge\pro4.pdb”
+
+
+
+
+
+
+
+Share
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+About the Author
+Cybereason Nocturnus
+
+
+
+
+
+
+The Cybereason Nocturnus Team has brought the world’s brightest minds from the military, government intelligence, and enterprise security to uncover emerging threats across the globe. They specialize in analyzing new attack methodologies, reverse-engineering malware, and exposing unknown system vulnerabilities. The Cybereason Nocturnus Team was the first to release a vaccination for the 2017 NotPetya and Bad Rabbit cyberattacks.
+All Posts by Cybereason Nocturnus
+
+
+
+
+
+
+
+
+
+
+
+Related Posts
+
+
+
+
+Operation GhostShell: Novel RAT Targets Global Aerospace and Telecoms Firms
+The highly-targeted attacks against aerospace and telecoms firms by new Iranian threat actor MalKamak includes newly discovered malware that evaded security tools since 2018 and abuses Dropbox services for command and control...
+
+
+
+
+
+StrifeWater RAT: Iranian APT Moses Staff Adds New Trojan to Ransomware Operations
+Cybereason discovered an undocumented RAT dubbed StrifeWater attributed to Iranian APT Moses Staff who deploy destructive ransomware following network infiltration and the exfiltration of sensitive data...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+Never miss a blog.
+
+
+
+Recent Posts
+
+
+From Cracked to Hacked: Malware Spread via YouTube Videos
+
+
+
+
+THREAT ALERT: Ivanti Connect Secure VPN Zero-Day Exploitation
+
+
+
+
+Malicious Life Podcast: SIM Registration: Security, or Surveillance?
+
+
+
+
+Categories
+
+Research
+Podcasts
+Webinars
+Resources
+Videos
+News
+
+All Posts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Related Posts
+
+
+
+
+Operation GhostShell: Novel RAT Targets Global Aerospace and Telecoms Firms
+The highly-targeted attacks against aerospace and telecoms firms by new Iranian threat actor MalKamak includes newly discovered malware that evaded security tools since 2018 and abuses Dropbox services for command and control...
+
+
+
+
+
+StrifeWater RAT: Iranian APT Moses Staff Adds New Trojan to Ransomware Operations
+Cybereason discovered an undocumented RAT dubbed StrifeWater attributed to Iranian APT Moses Staff who deploy destructive ransomware following network infiltration and the exfiltration of sensitive data...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEWSLETTER
+Never miss a blog
+Get the latest research, expert insights, and security industry news.
+Subscribe
+
+
+
+
+
+
+
+
+
+
+
+
+Want to see the Cybereason Defense Platform in action?
+Schedule a Demo
+
+X
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+About
+
+Who We Are
+Careers
+
+Contact
+
+
+
+Resources
+
+Blog
+Case Studies
+Webinars
+White Papers
+
+
+
+Platform
+
+Overview
+Endpoint Protection
+EDR
+MDR
+
+
+
+
+
+
+
+
+©Cybereason 2024. All Rights Reserved.
+
+
+
+Terms of Use
+Privacy Notice
+Do Not Sell
+Security
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
