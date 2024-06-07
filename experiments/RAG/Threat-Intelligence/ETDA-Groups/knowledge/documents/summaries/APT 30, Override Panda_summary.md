@@ -1,0 +1,6 @@
+
+Report 1
+
+APT 30, also known as Override Panda, is a state-sponsored threat actor believed to be associated with the Chinese government. The group has been active since at least 2005 and has targeted government and commercial entities in Southeast Asia and India, focusing on political, economic, and military information. APT 30's objective is data theft rather than financial gain, with a particular interest in documents stored on air-gapped networks. They have targeted organizations and governments associated with ASEAN, especially around official ASEAN meetings, and have also targeted journalists reporting on sensitive issues in China. The threat actor uses decoy documents related to Southeast Asia and India to lure victims into clicking on malicious attachments. APT 30's tools and techniques have remained consistent over the years, indicating a high level of sophistication and capability. The group has used a variety of tools such as BackBend, Creamsicle, and Shipshape in their operations. The victims targeted by APT 30 operate in sectors such as defense and government, with countries in ASEAN, India, and the USA being among the observed attacked countries. The threat actor's motivation is information theft and espionage, with a focus on stealing sensitive documents for strategic purposes.
+
+

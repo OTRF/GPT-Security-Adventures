@@ -1,0 +1,25 @@
+# Reference for threat actor for "RedFoxtrot"
+
+**Title**: Threat Activity Group RedFoxtrot Linked to China’s PLA Unit 69010; Targets Bordering Asian Countries
+
+**Source**: https://www.recordedfuture.com/redfoxtrot-china-pla-targets-bordering-asian-countries/
+
+## Content
+Threat Activity Group RedFoxtrot Linked to China’s PLA Unit 69010; Targets Bordering Asian CountriesCareersContact UsLoginPlatformSolutionsProductsServicesResearchResourcesCompanyGet a demo
+Book a demo
+BlogThreat Activity Group RedFoxtrot Linked to China’s PLA Unit 69010; Targets Bordering Asian CountriesPosted: 16th June 2021By: INSIKT GROUP
+Editor’s Note: The following post is an excerpt of a full report. To read the entire analysis, click here to download the report as a PDF.
+This report profiles a suspected Chinese state-sponsored threat activity group, RedFoxtrot, with links to PLA Unit 69010. The activity was identified through a combination of large-scale automated network traffic analytics and expert analysis. Data sources include the Recorded Future Platform, SecurityTrails, DomainTools, PolySwarm, Farsight, and common open-source tools and techniques. The report will be of most interest to individuals engaged in strategic and operational intelligence relating to the activities of Chinese military intelligence units in cyberspace and network defenders with a presence in Central or South Asia.
+Executive Summary
+Recorded Future’s Insikt Group has identified ties between a suspected Chinese state-sponsored threat activity group we track as RedFoxtrot and the Chinese military intelligence apparatus, specifically People’s Liberation Army (PLA) Unit 69010 located in Ürümqi, Xinjiang. This activity offers a glimpse into PLA operations following a major organizational restructure beginning in 2015 and follows a period where public reporting has largely concentrated on groups affiliated with China's Ministry of State Security (MSS). 
+Unit 69010 is likely the Military Unit Cover Designator (MUCD) for a Technical Reconnaissance Bureau (TRB) within the PLA Strategic Support Force (SSF) Network Systems Department (NSD), an information and cyber warfare branch of the PLA. Due to lax operational security measures employed by a suspected RedFoxtrot operator, Insikt Group linked the threat group to the physical address of Unit 69010’s headquarters. Publicly available procurement and court documents further tied Unit 69010 both to this address and to the SSF. Multiple academic publications also support the hypothesis that this unit has a cyber mission. 
+RedFoxtrot has been active since at least 2014 and predominantly targets government, defense, and telecommunications sectors across Central Asia, India, and Pakistan, aligning with the likely operational remit of Unit 69010. Of particular note, within the past 6 months, Insikt Group detected RedFoxtrot network intrusions targeting 3 Indian aerospace and defense contractors; major telecommunications providers in Afghanistan, India, Kazakhstan, and Pakistan; and multiple government agencies across the region. RedFoxtrot maintains large amounts of operational infrastructure and has likely employed both bespoke and publicly available malware families commonly used by Chinese cyber espionage groups, including Icefog, PlugX, Royal Road, Poison Ivy, ShadowPad, and PCShare. RedFoxtrot activity overlaps with threat groups tracked by other security vendors as Temp.Trident and Nomad Panda.
+
+Formerly known as the Lanzhou Military Region‘s Second Technical Reconnaissance Bureau, PLA Unit 69010 has very likely been incorporated into the Network Systems Department of the PLA-SSF following a 2015 restructure.
+We believe that RedFoxtrot is a Chinese state-sponsored threat activity group based on identified links to a specific PLA unit and the use of shared custom capabilities considered unique to Chinese cyber espionage groups.
+In 2020, RedFoxtrot, alongside multiple other PLA and MSS-affiliated threat groups, likely gained access to the ShadowPad backdoor.
+In the aftermath of the 2015 restructuring, activity linked to previously tracked PLA-affiliated cyber espionage groups has declined, likely due to old activity groups disbanding or merging to form new clusters. With continued activity from suspected PLA groups such as Tonto Team, Tick, Naikon, and RedFoxtrot, and the emergence of new Chinese threat activity groups with suspected PLA links, Insikt Group believes that PLA-affiliated groups remain prominent within the Chinese cyber espionage sphere despite increased attention on their MSS counterparts.
+
+Editor’s Note: This post was an excerpt of a full report. To read the entire analysis, click here to download the report as a PDF.
+About usIntelligence CloudServices & SupportResearchResourcesCompanyHelpful linksCareersContact UsGet a DemoThe Intelligence GraphJoin us onlineWant to learn more?Contact us today
+Copyright © 2024 Recorded Future, Inc.Security FAQCookiesPrivacy PolicyTerms & Conditions

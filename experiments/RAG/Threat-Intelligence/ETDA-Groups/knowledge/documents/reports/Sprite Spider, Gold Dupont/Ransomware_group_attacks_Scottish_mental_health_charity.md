@@ -1,0 +1,18 @@
+# Reference for threat actor for "Sprite Spider, Gold Dupont"
+
+**Title**: Ransomware group attacks Scottish mental health charity
+
+**Source**: https://therecord.media/ransomware-group-attacks-scottish-mental-health-charity/
+
+## Content
+Ransomware group attacks Scottish mental health charityLeadershipCybercrimeNation-stateElectionsTechnologyCyber Daily®Click Here PodcastGoSubscribe to The Record✉️ Free NewsletterScreen Shot 2022-03-22 at 2.13.35 PMJonathan GreigMarch 22nd, 2022Ransomware group attacks Scottish mental health charityA Scottish mental health charity is in the process of recovering from a ransomware incident after it was attacked last Thursday. 
+The attack on the Scottish Association for Mental Health (SAMH) was first reported by the BBC Scotland and Emsisoft threat analyst Brett Callow confirmed to The Record that the RansomExx ransomware group claimed credit for the incident. 
+On Friday, the organization released a statement saying it was dealing with a cybersecurity incident that affected their email system at both national and local offices. The attack also took down some of their phone lines. 
+By Monday, SAMH chief executive Billy Watson issued a second statement condemning the attack. 
+“We are devastated by this attack. It is difficult to understand why anyone would deliberately try to disrupt the work of an organization that is relied on by people at their most vulnerable. Our priority is to continue to do everything we can to deliver our vital services,” Watson said. 
+“My thanks to our staff team who, under difficult circumstances, are finding ways to keep our support services running to ensure those they support experience as little disruption as possible. We are working closely with various agencies including Police Scotland - this is an active investigation. We will continue to take the best expert advice to assist us in effectively dealing with this situation.”
+The organization noted that its local services are still available by phone and in person across Scotland. 
+Based in Glasgow, SAMH was founded in 1923 and provides mental health services to adults and young people in 60 communities across Scotland. 
+The organization recently showed up on the leak site of RansomExx, and Callow said the group is generally less interested in publicity than other ransomware groups. The group claims to have stolen about 12GB of data from SAMH during the attack. 
+The group has previously attacked Taiwanese computer hardware vendor GIGABYTE and was implicated in an attack on Lojas Renner, Brazil’s largest clothing department store chain. 
+“They have, however, claimed a number of significant victims including Tyler Technologies, the Texas Department of Transportation and Gigabyte,” Callow said. “Like multiple other ransomware families, RansomExx does not encrypt systems which use Russian or CIS languages.”News BriefsCybercrime NewsGet more insights with the Recorded FutureIntelligence Cloud.Learn more.TagsRansomwareNo previous articleNo new articlesJonathan GreigJonathan Greig is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.BriefsPrivacyAboutContact Us© Copyright 2024 | The Record from Recorded Future News

@@ -1,0 +1,6 @@
+
+Report 1
+
+Night Dragon, a threat actor first seen in 2009, has been conducting coordinated cyberattacks against global oil, energy, and petrochemical companies. The attacks involve social engineering, spear-phishing, exploitation of Windows vulnerabilities, and the use of RATs to target and harvest sensitive information related to oil and gas field bids. The attackers, based in China, have used C&C servers in the US and compromised servers in the Netherlands to target companies in Greece, Kazakhstan, Taiwan, and the USA. They deploy customized RAT tools for complete remote administration capabilities. The primary operational technique involves compromising perimeter security controls and conducting reconnaissance of targeted companies' networks. Night Dragon's motivation is information theft and espionage. The observed attacked sectors include energy, oil and gas, and petrochemical, with victims operating in Greece, Kazakhstan, Netherlands, Taiwan, and the USA. The threat actor has been linked to APT 18, Dynamite Panda, and Wekby. The tools used include ASPXSpy, Cain & Abel, gsecdump, and zwShell. The report does not mention specific hacking or counter operations against Night Dragon.
+
+

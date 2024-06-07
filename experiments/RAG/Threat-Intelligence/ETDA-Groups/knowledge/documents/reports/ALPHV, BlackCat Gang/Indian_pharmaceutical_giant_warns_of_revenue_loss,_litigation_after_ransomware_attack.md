@@ -1,0 +1,20 @@
+# Reference for threat actor for "ALPHV, BlackCat Gang"
+
+**Title**: Indian pharmaceutical giant warns of revenue loss, litigation after ransomware attack
+
+**Source**: https://therecord.media/sun-pharma-india-ransomware-attack
+
+## Content
+Indian pharmaceutical giant warns of revenue loss, litigation after ransomware attackLeadershipCybercrimeNation-stateElectionsTechnologyCyber Daily®Click Here PodcastGoSubscribe to The Record✉️ Free NewsletterJonathan GreigMarch 29th, 2023Indian pharmaceutical giant warns of revenue loss, litigation after ransomware attackThe largest pharmaceutical company in India confirmed a ransomware attack in its regulatory filings this week, explaining that the incident involved the theft of company data and personal information.
+Sun Pharmaceuticals – the fourth-largest specialty generic pharmaceutical company in the world – said in filings with the Bombay Stock Exchange that efforts to contain and eradicate the ransomware are ongoing and a cybersecurity firm has been hired to help respond to the incident.
+The company confirmed that a ransomware group has claimed responsibility for the incident but did not name them. The notorious Black Cat/AlphV ransomware group listed the company on its leak site on March 24.
+“The Company currently believes that the incident’s effect on its IT systems includes a breach of certain file systems and the theft of certain company data and personal data. As part of the containment measures, we proactively isolated our network and initiated the recovery process. As a result of these measures, Company’s business operations have been impacted,” they wrote.
+“Consequently, revenues are expected to be reduced in some of our businesses. The Company would incur expenses in connection with the incident and the remediation.”
+The filing provides an update to one submitted on March 2, when the company said it was suffering from a cyberattack that affected some IT systems but did not impact “core systems and operations.”
+Sun Pharmaceuticals warned that there may be other adverse effects resulting from the incident, including increased cyber insurance costs, potential litigation, as well as diversions of time and effort for senior management.
+The Mumbai-based company sells pharmaceutical products in more than 100 countries and brought in a revenue of $5 billion in 2022. It has more than 37,000 employees.
+Black Cat/AlphV has made a point of going after healthcare and pharmaceutical companies. The gang caused outrage three weeks ago when it extorted a healthcare network in Pennsylvania by publishing photographs of breast cancer patients.
+The group also attacked hospital technology giant NextGen Healthcare in January.
+The criminal gang has existed in some form since 2012, according to researchers from Symantec, who said it began using the Carbanak malware to steal money from organizations in the banking, hospitality and retail sectors.
+Three members of the group were arrested in 2018 before it evolved into a ransomware-as-a service (RaaS) operation around 2020.
+AlphV/BlackCat has now been used in other high profile attacks on colleges and universities across the U.S. as well as businesses like Japanese video game giant Bandai Namco, toy production company Jakks Pacific, two German oil companies and Italian fashion brand Moncler.News BriefsCybercrime NewsGet more insights with the Recorded FutureIntelligence Cloud.Learn more.TagsRansomwareIndiaHealthcareNo previous articleNo new articlesJonathan GreigJonathan Greig is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.BriefsPrivacyAboutContact Us© Copyright 2024 | The Record from Recorded Future News

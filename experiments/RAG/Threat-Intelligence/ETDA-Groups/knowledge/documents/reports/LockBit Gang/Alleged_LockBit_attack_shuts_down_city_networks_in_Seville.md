@@ -1,0 +1,16 @@
+# Reference for threat actor for "LockBit Gang"
+
+**Title**: Alleged LockBit attack shuts down city networks in Seville
+
+**Source**: https://therecord.media/lockbit-cyberattack-shuts-down-networks-in-seville-spain
+
+## Content
+Alleged LockBit attack shuts down city networks in SevilleLeadershipCybercrimeNation-stateElectionsTechnologyCyber Daily®Click Here PodcastGoSubscribe to The Record✉️ Free NewsletterImage: Joan Oger via UnsplashJoe WarminskySeptember 7th, 2023Alleged LockBit attack shuts down city networks in SevilleThe city council of Seville, Spain, was still recovering Thursday from a cyberattack that officials have attributed to the LockBit cybercrime gang.
+The council said it will not pay a ransom of $1.5 million demanded by the hackers, according to local media reports. The incident has affected a broad range of city services, including police, firefighters and tax collection.
+The attack began Monday, according to city officials, and it was initially identified as an internal system failure. Further analysis soon revealed it to be a cyberattack, officials said. LockBit typically extorts victims by encrypting networks and threatening to post stolen data on its leak site.
+Mayor José Luis Sanz said Thursday that the city was trying to restore services as soon as possible. Seville is the capital of Spain’s autonomous Andalusia region and the country’s fourth-largest city overall.
+It is unclear if LockBit has stolen any data, officials said. As of Thursday, there were no reports of LockBit leaking any data from Seville’s government.
+National police and the incident response unit of Spain’s National Cryptological Center (CCN-CERT) are involved in the investigation.
+LockBit has been in the headlines all year, taking credit recently for attacks on an electric utility in Montreal and healthcare technology giant Siemens Healthineers. Spain’s national police issued a general nationwide warning about LockBit on August 25.
+The attacks have come as analysts have questioned the reliability of the group’s infrastructure, but also noted its influence on the broader ransomware ecosystem.
+ AVISO IMPORTANTE El Ayuntamiento se ha visto afectado por un ataque informático. Los servicios se han interrumpido como medida de precaución hasta conocer el alcance concreto del ciberataque.Estamos trabajando para poder restablecer la normalidad lo antes posible. pic.twitter.com/eOogsOctib— Ayuntamiento de Sevilla (@Ayto_Sevilla) September 5, 2023 News BriefsGovernment NewsCybercrime NewsGet more insights with the Recorded FutureIntelligence Cloud.Learn more.TagsLockBitSpainGovernmentcyberattacklocal governmentRansomwareNo previous articleNo new articlesJoe WarminskyJoe Warminsky is the news editor for Recorded Future News. He has more than 25 years experience as an editor and writer in the Washington, D.C., area. Most recently he helped lead CyberScoop for more than five years. Prior to that, he was a digital editor at WAMU 88.5, the NPR affiliate in Washington, and he spent more than a decade editing coverage of Congress for CQ Roll Call.BriefsPrivacyAboutContact Us© Copyright 2024 | The Record from Recorded Future News

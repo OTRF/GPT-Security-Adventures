@@ -1,0 +1,56 @@
+# Reference for threat actor for "Gnosticplayers"
+
+**Title**: Round 4: Hacker returns and puts 26Mil user records for sale on the Dark Web | ZDNET
+
+**Source**: https://www.zdnet.com/article/round-4-hacker-returns-and-puts-26mil-user-records-for-sale-on-the-dark-web/
+
+## Content
+
+
+
+
+Round 4: Hacker returns and puts 26Mil user records for sale on the Dark Web | ZDNET
+
+
+                                         />                                                                                                                                                                                                     X     Trending    CES 2024: 3 trends to watch as we learn what's next in tech ZDNET's product of the year: Meta Quest 3 is the quiet shocker of 2023 Have 10 hours? IBM will train you in AI fundamentals - for free Two breakthroughs made 2023 tech's most innovative year in over a decade Which Windows apps to keep (and which to dump) 7 useful things to do with your Flipper Zero  The Apple Watch to buy this year Meta's $299 Ray-Ban smart glasses may be the most useful gadget I've tested all year iPhone 15 Pro review: Who this upgrade will wow Samsung Galaxy S23 Ultra review: One of the best smartphones of the year Sonos Era 300 review: Close to a perfect smart speaker I tried Apple Vision Pro and it's far ahead of where I expected  Best laptops Best VPNs Best TVs Best Headphones Best robot vacuums ZDNET Recommends  Tech    Gaming Headphones Laptops Mobile Accessories Networking PCs  Printers Smartphones Smart Watches Speakers Streaming Devices Streaming Services  Tablets TVs Wearables  Kitchen & Household Office Furniture Office Hardware & Appliances Smart Home Smart Lighting Yard & Outdoors  Innovation    Artificial Intelligence AR + VR Cloud Digital Transformation Energy  Robotics Sustainability Transportation Work Life  Accelerate your tech game Paid Content How the New Space Race Will Drive Innovation How the metaverse will change the future of work and society  Managing the Multicloud The Future of the Internet The New Rules of Work The Tech Trends to Watch in 2023  Business    See all Business Amazon Apple Developer E-Commerce  Edge Computing Enterprise Software Executive Google Microsoft  Professional Development Social Media SMB Windows  Digital transformation: Trends and insights for success Software development: Emerging trends and changing roles  Security      See all Security Cyber Threats Password Manager Ransomware VPN  Cybersecurity: Let's get tactical Securing the Cloud  Advice      Deals How-to Product Comparisons Product Spotlights Reviews  Buying Guides    See all Buying Guides Best all-in-one computers Best budget TVs Best gaming CPUs Best gaming laptops Best gaming PCs  Best headphones Best iPads Best iPhones Best laptops Best large tablets Best OLED TVs  Best robot vacuum mops Best rugged tablets Best Samsung phones Best smart rings Best smartphones Best smartwatches  Best speakers Best tablets Best travel VPNs Best TVs Best VPNs Best Coupons   tomorrow belongs to those who embrace it today       
+          Asia
+        
+          Australia
+        
+          Europe
+        
+          India
+        
+          United Kingdom
+        
+          United States
+         ZDNET France ZDNET Germany ZDNET Korea ZDNET Japan        Go  Most Popular          See all Topics Finance Education Health  Special Features ZDNET In Depth ZDNET Recommends  Newsletters Videos Editorial Guidelines        Trending  CES 2024: 3 trends to watch as we learn what's next in tech ZDNET's product of the year: Meta Quest 3 is the quiet shocker of 2023 Have 10 hours? IBM will train you in AI fundamentals - for free Two breakthroughs made 2023 tech's most innovative year in over a decade Which Windows apps to keep (and which to dump) 7 useful things to do with your Flipper Zero The Apple Watch to buy this year Meta's $299 Ray-Ban smart glasses may be the most useful gadget I've tested all year iPhone 15 Pro review: Who this upgrade will wow Samsung Galaxy S23 Ultra review: One of the best smartphones of the year Sonos Era 300 review: Close to a perfect smart speaker I tried Apple Vision Pro and it's far ahead of where I expected Best laptops Best VPNs Best TVs Best Headphones Best robot vacuums ZDNET Recommends Tech  Gaming Headphones Laptops Mobile Accessories Networking PCs Printers Smartphones Smart Watches Speakers Streaming Devices Streaming Services Tablets TVs Wearables Kitchen & Household Office Furniture Office Hardware & Appliances Smart Home Smart Lighting Yard & Outdoors Innovation  Artificial Intelligence AR + VR Cloud Digital Transformation Energy Robotics Sustainability Transportation Work Life Accelerate your tech game Paid Content How the New Space Race Will Drive Innovation How the metaverse will change the future of work and society Managing the Multicloud The Future of the Internet The New Rules of Work The Tech Trends to Watch in 2023 Business  See all Business Amazon Apple Developer E-Commerce Edge Computing Enterprise Software Executive Google Microsoft Professional Development Social Media SMB Windows Digital transformation: Trends and insights for success Software development: Emerging trends and changing roles Security  See all Security Cyber Threats Password Manager Ransomware VPN Cybersecurity: Let's get tactical Securing the Cloud Advice  Deals How-to Product Comparisons Product Spotlights Reviews Buying Guides  See all Buying Guides Best all-in-one computers Best budget TVs Best gaming CPUs Best gaming laptops Best gaming PCs Best headphones Best iPads Best iPhones Best laptops Best large tablets Best OLED TVs Best robot vacuum mops Best rugged tablets Best Samsung phones Best smart rings Best smartphones Best smartwatches Best speakers Best tablets Best travel VPNs Best TVs Best VPNs Best Coupons More  See all Topics Finance Education Health Special Features ZDNET In Depth ZDNET Recommends Newsletters Videos Editorial Guidelines  Tech     
+      Home
+    
+      Tech
+    
+      Security
+      
+    Round 4: Hacker returns and puts 26Mil user records for sale on the Dark Web
+   
+    Gnosticplayers returns with new user records, most of which he obtained by hacking companies last month.
+      Written by 
+            Catalin Cimpanu, Contributor   March 17, 2019 at 11:15 a.m. PT                      A hacker who has previously put up for sale over 840 million user records in the past month, has returned with a fourth round of hacked data that he's selling on a dark web marketplace.This time, the hacker has put up for sale the data of six companies, totaling 26.42 million user records, for which he's asking 1.2431 bitcoin ($4,940).The hacker's name is Gnosticplayers, and since February 11 the hacker has put up for sale data for 32 companies in three rounds [stories on Round 1, Round 2, and Round 3] on Dream Market, a dark web marketplace.Today, the hacker published a new batch of files from six new companies, namely game dev platform GameSalad, Brazilian book store Estante Virtual, online task manager and scheduling apps Coubic and LifeBear, Indonesia e-commerce giant Bukalapak, and Indonesian student career site YouthManual.CompanyDB sizeBreach datePriceContentGameSalad (game dev platform)1.5 Mil2019/02฿0.0785email, password (SHA1/SHA256), username, IP addressEstante Virtual (Brazilian book shop)5.45 Mil2019/02฿0.2618name, username, password (SHA1), address, email, phone numberCoubic (scheduling software)1.5 Mil2019/02฿0.157name, email, password (SHA256)LifeBear (Japanese scheduling app)3.86 Mil2019/02฿0.2618email, password (MD5), username, event details, app settingsBukalapak (Indonesian e-commerce site)13 Mil2017/07฿0.34username, name, email, password hash (SHA512+salt), shopping details, IP adress, other YouthManual.com (Indonesian youth student and career site)1.12 Mil2019/02฿0.144name,email, password hash (SHA1+salt), hobbies, education, other      Image: ZDNetZDNet has reached out to the allegedly hacked companies with emails earlier today. It is worth mentioning that many of the companies whose data Gnosticplayers has sold in the previous three rounds have already confirmed breaches.Coubic returned comment and said it was investigating the breach. So did LifeBear, which admitted that it was "most likely" that it servers got hacked, but the company is still investigating. [UPDATE: Bukalapak, Coubic and LifeBear have publicly acknowledged the hacks.]The difference between Round 4 and the previous three rounds is that five of the six databases Gnosticplayers put up for sale were acquired during hacks that have taken place last month, February 2019.The hacker said that he put up the data for sale mainly because these companies had failed to protect passwords with strong encryption algorithms like bcrypt.Most of the hashed passwords the hacker put up for sale today can cracked with various levels of difficulty --but they can be cracked."I got upset because I feel no one is learning," the hacker told ZDNet in an online chat earlier today. "I just felt upset at this particular moment, because seeing this lack of security in 2019 is making me angry."In a conversation with ZDNet last month, the hacker told us he wanted to hack and put up for sale more than one billion records and then retire and disappear with the money.But in a conversation today, the hacker says this is not his target anymore, as he learned that other hackers have already achieved the same goal before him.Gnosticplayers also revealed that not all the data he obtained from hacked companies had been put up for sale. Some companies gave into extortion demands and paid fees so breaches would remain private."I came to an agreement with some companies, but the concerned startups won't see their data for sale," he said. " I did it that's why I can't publish the rest of my databases or even name them."Article updated with Coubic and LifeBear responses.
+    Data leaks: The most common sources
+                    	More data breach coverage: Companies are leaking sensitive files via Box accountsCitrix discloses security breach of internal network'Yelp for conservatives' MAGA app leaks users dataDatabase leaks 250K legal documents, some marked 'not designated for publication'Chinese hacking group backdoors products from three Asian gaming companiesSaudi caller ID app leaves data of 5+ million users in unsecured MongoDB serverMassive breach leaks 773 million email addresses, 21 million passwords CNET Hackers turn to data theft and resale on the Dark Web for higher payouts TechRepublic Editorial standards  Show Comments  
+          Log In to Comment
+         Community Guidelines     Related   
+      Secure a White Hat Hacker education for only $40
+      
+      The best VPN deals right now
+      
+      The best laptop deals right now
+              ZDNET we equip you to harness the power of disruptive innovation, at work and at home. TopicsGalleriesVideosDo Not Sell or Share My Personal Information about ZDNETMeet The TeamSitemapReprint Policy Join |
+    Log InNewslettersSite AssistanceLicensing     
+  © 2024 ZDNET, A Red Ventures company. All rights reserved.
+ Privacy Policy |
+  Cookie Settings |
+  Advertise |
+  Terms of Use 
+
+
